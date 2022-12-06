@@ -1,0 +1,86 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///D:/HAGAR/Calculator/index.html
+Subject: Calculator
+Date: Tue, 6 Dec 2022 08:41:01 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--avHAytVoaqt0p4FckHwUob2z1Mdc0PtAsA02xy8qeo----"
+
+
+------MultipartBoundary--avHAytVoaqt0p4FckHwUob2z1Mdc0PtAsA02xy8qeo----
+Content-Type: text/html
+Content-ID: <frame-9433626ED28A88F65E657388EF2A00B3@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///D:/HAGAR/Calculator/index.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <link rel=3D"stylesheet" href=3D"file:///D:/HAGAR/Calculator/mystyle.cs=
+s">
+    <title>Calculator</title>
+</head>
+<body>
+    <section>
+    <div class=3D"container">
+        <div id=3D"display"></div>
+        <div class=3D"buttons">
+            <div class=3D"button">c</div>
+            <div class=3D"button">/</div>
+            <div class=3D"button">*</div>
+            <div class=3D"button">%</div>
+            <div class=3D"button">7</div>
+            <div class=3D"button">8</div>
+            <div class=3D"button">9</div>
+            <div class=3D"button">-</div>
+            <div class=3D"button">4</div>
+            <div class=3D"button">5</div>
+            <div class=3D"button">6</div>
+            <div class=3D"button">+</div>
+            <div class=3D"button">1</div>
+            <div class=3D"button">2</div>
+            <div class=3D"button">3</div>
+            <div class=3D"button">.</div>
+            <div class=3D"button">(</div>
+            <div class=3D"button">0</div>
+            <div class=3D"button">)</div>
+            <div id=3D"equal" class=3D"button">=3D</div>
+        </div>
+    </div>
+    </section>
+   =20
+
+</body></html>
+------MultipartBoundary--avHAytVoaqt0p4FckHwUob2z1Mdc0PtAsA02xy8qeo----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///D:/HAGAR/Calculator/mystyle.css
+
+@charset "utf-8";
+
+* { box-sizing: border-box; padding: 0px; margin: 0px; }
+
+.container { margin: 10vh auto 0px; max-width: 350px; box-shadow: rgb(153, =
+153, 153) 0px 5px 15px 30px; }
+
+#display { font-size: 25px; line-height: 60px; height: 60px; text-align: ri=
+ght; padding: 16px 8px; }
+
+.buttons { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; border-bo=
+ttom: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 15=
+3); }
+
+.buttons > div { border-top: 1px solid rgb(153, 153, 153); border-right: 1p=
+x solid rgb(153, 153, 153); }
+
+.button { font-size: 25px; line-height: 80px; text-align: center; border: 1=
+px solid rgb(153, 153, 153); cursor: pointer; }
+
+#equal { color: black; background-color: orangered; }
+
+.button:hover { color: white; background-color: burlywood; }
+------MultipartBoundary--avHAytVoaqt0p4FckHwUob2z1Mdc0PtAsA02xy8qeo------

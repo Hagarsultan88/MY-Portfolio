@@ -1,0 +1,76 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///D:/HAGAR/To%20Do%20List/index.html
+Subject: ToDo List
+Date: Tue, 6 Dec 2022 08:37:30 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--tErkeBm5JXEncss5vopmvIVJnoOzJWl1NWxf9RQovA----"
+
+
+------MultipartBoundary--tErkeBm5JXEncss5vopmvIVJnoOzJWl1NWxf9RQovA----
+Content-Type: text/html
+Content-ID: <frame-F610EC3AC1DE079C77F8053ECB89A3D3@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///D:/HAGAR/To%20Do%20List/index.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width, initial-scale=3D1.0">
+    <link rel=3D"stylesheet" href=3D"file:///D:/HAGAR/To%20Do%20List/style.=
+css">
+    <title>ToDo List</title>
+</head>
+<body>
+    <div class=3D"container">
+        <div class=3D"form">
+            <input type=3D"text" class=3D"input">
+            <input type=3D"submit" class=3D"add" value=3D"Add Task">
+        </div>
+        <div class=3D"tasks"></div>
+    </div>
+   =20
+   =20
+
+</body></html>
+------MultipartBoundary--tErkeBm5JXEncss5vopmvIVJnoOzJWl1NWxf9RQovA----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///D:/HAGAR/To%20Do%20List/style.css
+
+@charset "utf-8";
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+.container { width: 500px; margin: 20px auto; }
+
+.form { background-color: rgb(238, 238, 238); border-radius: 6px; padding: =
+20px; display: flex; align-items: center; }
+
+.input { padding: 10px; border: 1px solid rgb(221, 221, 221); border-radius=
+: 6px; flex: 1 1 0%; }
+
+.input:focus { outline: none; }
+
+.add { border: none; background-color: rgb(244, 67, 54); color: white; padd=
+ing: 10px; border-radius: 6px; margin-left: 10px; cursor: pointer; }
+
+.tasks { background-color: rgb(238, 238, 238); margin-top: 20px; border-rad=
+ius: 6px; padding: 20px; }
+
+.tasks .task { background-color: white; padding: 10px; border-radius: 6px; =
+display: flex; justify-content: space-between; align-items: center; transit=
+ion: all 0.3s ease 0s; cursor: pointer; border: 1px solid rgb(204, 204, 204=
+); }
+
+.tasks .task:not(:last-child) { margin-bottom: 15px; }
+
+.tasks .task:hover { background-color: rgb(247, 247, 247); }
+
+.tasks .task .done { opacity: 0.5; }
+
+.tasks .task span { font-weight: bold; font-size: 10px; background-color: r=
+ed; color: white; padding: 2px 6px; border-radius: 4px; cursor: pointer; }
+------MultipartBoundary--tErkeBm5JXEncss5vopmvIVJnoOzJWl1NWxf9RQovA------
